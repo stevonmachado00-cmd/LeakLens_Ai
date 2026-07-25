@@ -167,3 +167,17 @@ Thumbs.db
 *.db
 *.sqlite
 chroma_db/
+venv/
+.env
+__pycache__/
+*.pyc
+
+backend/uploads/
+
+backend/leaklens.db
+*.db
+
+.next/
+node_modules/
+
+*.log

@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from app.core.config import settings
 from app.middleware.logging import LoggingMiddleware
 from app.api.v1.api import api_router
+from app.models import User  # Register all SQLAlchemy models before mapper configuration.
 
 from app.middleware.errors import global_exception_handler
 
